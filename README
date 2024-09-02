@@ -1,0 +1,32 @@
+Read the data of an order with N items (N provided by the user).Then,
+show a summary of the order as per the example (next page).
+Note: the order time must be the system time: new Date()
+
+Enter client data:
+Name: Alex Green
+Email: alex@gmail.com
+Birth date (DD/MM/YYYY): 15/03/1985
+
+Enter order data:
+Status (PENDING_PAYMENT, PROCESSING, SHIPPED, DELIVERED) : DELIVERED
+How many items to this order? 2
+
+Enter #1 item data:
+Product name: TV
+Product price: 1000
+Quantity: 1
+
+Enter #2 item data:
+Product name: Mouse
+Product price: 40
+Quantity: 2
+
+ORDER SUMMARY:
+Order moment: 02/09/2024 00:35:11
+Order status: DELIVERED
+Client: Alex Green - alex@gmail.com
+Order items:
+TV, Quantity: 1, Subtotal: $1000.0
+Mouse, Quantity: 2, Subtotal: $80.0
+
+Total price: $1080,00
